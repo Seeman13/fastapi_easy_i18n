@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+
+# Virtual environment
+.venv/
+
+# Idea`s
+.idea/
+
+# Build
+dist/
+build/
+
+# Testing
+.coverage
+.pytest_cache/
