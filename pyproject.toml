@@ -1,0 +1,72 @@
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fastapi-easy-i18n"
+
+description = "Простой и быстрый i18n для FastAPI без внешних зависимостей"
+readme = { file = "README.md", content-type = "text/markdown" }
+authors = [{ name = "Александр Королёв", email = "forzaazzuri13@gmail.com" }]
+license = { text = "MIT" }
+requires-python = ">=3.8"
+
+keywords = [
+    "fastapi",
+    "i18n",
+    "internationalization",
+    "localization",
+    "translation",
+    "json-i18n",
+    "no-dependencies",
+    "easy-i18n",
+    "fastapi-translation",
+    "multilingual",
+    "locale"
+]
+
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Framework :: FastAPI",
+    "Topic :: Software Development :: Internationalization",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed"
+]
+
+dynamic = ["version", "dependencies"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "--cov=fastapi_easy_i18n --cov-report=term-missing"
+
+[tool.coverage.run]
+source = ["fastapi_easy_i18n"]
+omit = ["tests/*"]
+
+[tool.hatch.version]
+source = "vcs"
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "mypy",
+    "pytest",
+    "pytest-cov"
+]
+
+[project.urls]
+Homepage = "https://github.com/Seeman13/fastapi-easy-i18n"
+Repository = "https://github.com/Seeman13/fastapi-easy-i18n"
+Issues = "https://github.com/Seeman13/fastapi-easy-i18n/issues"
