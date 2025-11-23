@@ -1,4 +1,4 @@
-# fastapi-easy-i18n
+# FastAPI Easy i18n
 [🇬🇧 English](README.md) | [🇷🇺 Русский](README.ru.md)
 
 **Простая, быстрая и полностью независимая библиотека для интернационализации (i18n) в FastAPI.**
@@ -8,7 +8,7 @@
 [![PyPI version](https://badge.fury.io/py/fastapi-easy-i18n.svg)](https://pypi.org/project/fastapi-easy-i18n/)
 [![Python Versions](https://img.shields.io/pypi/pyversions/fastapi-easy-i18n?logo=python)](https://www.python.org/)
 [![License](https://img.shields.io/github/license/Seeman13/fastapi-easy-i18n?color=yellow)](https://github.com/Seeman13/fastapi-easy-i18n/blob/main/LICENSE)
-[![Build](https://github.com/Seeman13/fastapi-easy-i18n/actions/workflows/test-and-publish.yml/badge.svg?branch=main)](https://github.com/Seeman13/fastapi-easy-i18n/actions)
+[![Build](https://github.com/Seeman13/fastapi-easy-i18n/actions/workflows/publish.yml/badge.svg?branch=main)](https://github.com/Seeman13/fastapi-easy-i18n/actions)
 [![Coverage](https://img.shields.io/codecov/c/github/Seeman13/fastapi-easy-i18n?logo=codecov)](https://codecov.io/gh/Seeman13/fastapi-easy-i18n)
 [![Downloads](https://pepy.tech/badge/fastapi-easy-i18n)](https://pepy.tech/project/fastapi-easy-i18n)
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
